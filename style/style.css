@@ -7,7 +7,7 @@ h1{
     font-family: 'Roboto', sans-serif;
 }
 #mission_info{
-    height: 700px;
+    /* height: 700px; */
     margin-bottom: 80px;
 }
 .container{
@@ -54,6 +54,7 @@ button:hover{
 }
 #scroll_text{
     font-size: 20px;
+    padding-top: 10px;
 }
 .mission_img_box{
     width: 40%;
@@ -62,7 +63,8 @@ button:hover{
     width: 90%;
 }
 #skill{
-    margin: 100px 0px;
+    margin-bottom: 100px;
+
 }
 .head_text h1{
     font-size: 48px;
