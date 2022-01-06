@@ -42,6 +42,10 @@ body{
     border-radius: 7px;
     font-weight: 600;
     background: linear-gradient(90deg, #027bdd, #5edbd8);
+    cursor: pointer;
+}
+.mission_text_box button:hover{
+    background: linear-gradient(90deg,#5edbd8, #027bdd);
 }
 #scroll_text{
     font-size: 20px;
