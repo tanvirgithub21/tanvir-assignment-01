@@ -37,7 +37,7 @@ h1{
     margin-right: 130px;
     color: rgb(65, 65, 65);
 }
-button{
+button, .mess_btn{
     color: white;
     border: none;
     border-radius: 7px;
@@ -99,6 +99,7 @@ button:hover{
 .skill_box_3{
     background-color: #fff4d6;
 }
+
 
 #learning_methods{
     padding: 80px 0px 40px 0px;
@@ -162,3 +163,63 @@ button:hover{
     width: 95%;
 }
 
+
+
+
+#contact{
+    padding-bottom: 200px;
+}
+.contact_container{
+    padding: 0% 20%;
+}
+.contact_container h1{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.contact_container span{
+    color: orange;
+}
+.contact_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.contact_info{
+    display: flex;
+    flex-direction: column;
+}
+.contact_description{
+    display: flex;
+    flex-direction: column;
+}
+.name, .email, .phone{
+    font-size: 25px;
+    padding: 12px 28px;
+    border: none;
+    background-color: rgba(109, 99, 255, 0.377);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    outline-color: #1a73e8;
+}
+.name, .email, .phone, .message,::placeholder{
+    color: white;
+}
+.message{
+    width: 300px;
+    height: 108px;
+    font-size: 22px;
+    padding: 16px;
+    background-color: rgba(109, 99, 255, 0.377);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 26px;
+    outline-color: #1a73e8;
+}
+.button{
+    width: 332px;
+    height: 56x;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 600;
+
+}
