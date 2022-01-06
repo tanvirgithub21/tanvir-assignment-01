@@ -101,7 +101,7 @@ button:hover{
 }
 
 #learning_methods{
-    padding: 80px 0px;
+    padding: 80px 0px 40px 0px;
 }
 .learning_methods_wrap{
     padding-bottom: 80px;
@@ -134,4 +134,31 @@ button:hover{
 
 
 
+#our_community{
+    margin-bottom: 80px;
+}
+.our_community_wrap{
+    display: flex;
+}
+.community_info{
+    width: 60%;
+}
+.community_info h1{
+    font-size: 50px;
+}
+.community_info p{
+    font-size: 20px;
+    padding-right: 100px;
+}
+.community_info button{
+    padding: 20px 30px;
+    font-size: 25px;
+    margin-top: 25px;
+}
+.community_photo{
+    width: 40%;
+}
+.community_photo img{
+    width: 95%;
+}
 
