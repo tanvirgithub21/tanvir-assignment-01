@@ -36,18 +36,20 @@ h1{
     margin-right: 130px;
     color: rgb(65, 65, 65);
 }
-.mission_text_box button{
-    font-size: 20px;
+button{
     color: white;
-    padding: 15px 30px;
     border: none;
     border-radius: 7px;
     font-weight: 600;
     background: linear-gradient(90deg, #027bdd, #5edbd8);
     cursor: pointer;
 }
-.mission_text_box button:hover{
+button:hover{
     background: linear-gradient(90deg,#5edbd8, #027bdd);
+}
+.mission_text_box button{
+    font-size: 20px;
+    padding: 15px 30px;
 }
 #scroll_text{
     font-size: 20px;
@@ -94,4 +96,34 @@ h1{
 }
 .skill_box_3{
     background-color: #fff4d6;
+}
+
+
+.learning_methods_wrap{
+    padding-bottom: 80px;
+    display: flex;
+}
+.learning_img{
+    width: 40%;
+}
+.learning_img img{
+    width: 100%;
+}
+.learning_methods_info{
+    width: 60%;
+    padding: 0px 60px 0px 60px;
+    margin-left: 50px;
+}
+.learning_methods_info h1{
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.learning_methods_info p{
+    font-size: 22px;
+}
+.learning_methods_info button{
+    padding: 20px 30px;
+    font-size: 25px;
+    margin-top: 40px;
 }
