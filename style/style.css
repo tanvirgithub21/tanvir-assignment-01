@@ -3,6 +3,9 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+h1{
+    font-family: 'Roboto', sans-serif;
+}
 #mission_info{
     height: 700px;
 }
@@ -18,7 +21,6 @@ body{
 .mission_text_box h1{
     font-size: 60px;
     margin-top: 150px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 800;
     padding-left: 10px;
     border-left: 7px solid;
@@ -55,4 +57,41 @@ body{
 }
 .mission_img_box img{
     width: 90%;
+}
+#skill{
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+.head_text h1{
+    font-size: 48px;
+    text-align: center;
+    padding: 30px 0px 26px 0px;
+}
+.head_text h1 span{
+    color: #1a73e8;
+}
+.skill_box_wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.skill_box{
+    width: 300px;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+}
+.skill_box_img{
+    padding-bottom: 30px;
+}
+.skill_box_text p{
+    font-size: 20px;
+}
+.skill_box_1{
+    background-color: #ffe1e1;
+}
+.skill_box_2{
+    background-color: #cbf3f8;
+}
+.skill_box_3{
+    background-color: #fff4d6;
 }
